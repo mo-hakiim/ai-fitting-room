@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Fitting Room | Maison Étoile</title>
+    <meta
+      name="description"
+      content="AI Fitting Room boutique experience for premium fashion discovery and try-on."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="brand" aria-label="Maison Étoile brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>Maison Étoile</span>
+        </div>
+
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#collection">Collection</a>
+          <a href="#atelier">Atelier</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact" class="nav-cta">Private Styling</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero" aria-label="Luxury fashion introduction">
+        <div class="hero-inner">
+          <div>
+            <div class="eyebrow">AI Fitting Room</div>
+            <h1>Dress the moment. Try before you commit.</h1>
+            <p class="hero-copy">
+              Discover statement silhouettes, tailored essentials, and elevated textures in an intelligent boutique experience designed for modern luxury wardrobes.
+            </p>
+
+            <div class="hero-actions">
+              <button class="primary-btn" type="button">Book a Styling Session</button>
+              <button class="secondary-btn" type="button">Explore the Collection</button>
+            </div>
+
+            <div class="stats" aria-label="Brand stats">
+              <div class="stat">
+                <strong>14k+</strong>
+                <span>Virtual fits</span>
+              </div>
+              <div class="stat">
+                <strong>48h</strong>
+                <span>Styling turn</span>
+              </div>
+              <div class="stat">
+                <strong>4.9/5</strong>
+                <span>Client rating</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="showcase" aria-label="Featured boutique look">
+            <div class="showcase-card main">
+              <img
+                src="assets/classic_men_cloth/Brown_Shirt_with_Cream_Pants___Elegant_Men_s_Casual_Outfit.jfif"
+                alt="Luxury fashion portrait"
+              />
+            </div>
+            <div class="showcase-card side">
+              <img
+                src="assets/female_dresses/black_maxi_with_monochrome_loose_shirt_perfect_for_any_body_type.jfif"
+                alt="Luxury boutique styling detail"
+              />
+            </div>
+            <div class="showcase-badge">
+              <small>Featured edit</small>
+              <strong>Midnight Atelier</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="collection" class="catalog-section" aria-label="Product catalog section">
+        <div class="section-header">
+          <div>
+            <h2>Curated for the new season</h2>
+          </div>
+          <p>Thoughtful edits for refined wardrobes.</p>
+        </div>
+
+        <div class="filter-wrap" aria-label="Filter products by category">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="menswear">Menswear</button>
+          <button class="filter-btn" type="button" data-filter="womenswear">Womenswear</button>
+          <button class="filter-btn" type="button" data-filter="accessories">Accessories</button>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite">
+          <article class="product-card" data-category="menswear">
+            <div class="product-image-wrap">
+              <span class="product-tag">Menswear</span>
+              <img src="assets/classic_men_cloth/Brown_Shirt_with_Cream_Pants___Elegant_Men_s_Casual_Outfit.jfif" alt="Noir Tailored Suit" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Noir Tailored Suit</h3>
+                <span class="price">$680</span>
+              </div>
+              <p class="boutique">Maison Étoile</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Noir Tailored Suit">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Noir Tailored Suit">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="womenswear">
+            <div class="product-image-wrap">
+              <span class="product-tag">Womenswear</span>
+              <img src="assets/female_dresses/black_maxi_with_monochrome_loose_shirt_perfect_for_any_body_type.jfif" alt="Silk Column Dress" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Silk Column Dress</h3>
+                <span class="price">$540</span>
+              </div>
+              <p class="boutique">Veloura Studio</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Silk Column Dress">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Silk Column Dress">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="menswear">
+            <div class="product-image-wrap">
+              <span class="product-tag">Menswear</span>
+              <img src="assets/classic_men_cloth/Men_s_Cable_Stitch_Sweater_Polo___Men_s_New_Arrivals___Abercrombie_com.jfif" alt="Cable Stitch Sweater Polo" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Cable Stitch Sweater Polo</h3>
+                <span class="price">$430</span>
+              </div>
+              <p class="boutique">Abercrombie Studio</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Cable Stitch Sweater Polo">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Cable Stitch Sweater Polo">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="menswear">
+            <div class="product-image-wrap">
+              <span class="product-tag">Menswear</span>
+              <img src="assets/classic_men_cloth/Wool-lined_Thickened_Coat_Mens_Casual_Top.jfif" alt="Wool-lined Thickened Coat" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Wool-lined Coast</h3>
+                <span class="price">$760</span>
+              </div>
+              <p class="boutique">Northline Atelier</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Wool-lined Coast">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Wool-lined Coast">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="womenswear">
+            <div class="product-image-wrap">
+              <span class="product-tag">Womenswear</span>
+              <img src="assets/female_dresses/download_5.jfif" alt="Evening Monochrome Layer" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Evening Monochrome Layer</h3>
+                <span class="price">$590</span>
+              </div>
+              <p class="boutique">Élan House</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Evening Monochrome Layer">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Evening Monochrome Layer">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories">
+            <div class="product-image-wrap">
+              <span class="product-tag">Accessories</span>
+              <img src="assets/sport_men_cloth/Emirate_Fly_Better.jfif" alt="Emirate Flight Set" />
+            </div>
+            <div class="product-body">
+              <div class="topline">
+                <h3 class="product-name">Emirate Flight Set</h3>
+                <span class="price">$260</span>
+              </div>
+              <p class="boutique">Sable Mode</p>
+              <div class="card-actions">
+                <button class="action-btn primary" type="button" data-product="Emirate Flight Set">✨ AI Try-On</button>
+                <button class="action-btn secondary" type="button" data-product="Emirate Flight Set">WhatsApp</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+    <script src="https://anywear.decart.ai/widget/latest/anywear.js?domain=capture-love-app.lovable.app" async></script>
+  </body>
+</html>
